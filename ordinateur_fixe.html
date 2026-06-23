@@ -1,0 +1,365 @@
+﻿<!DOCTYPE html>
+
+<html lang="fr" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    
+    
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/test.css" />
+    <link rel="stylesheet" type="text/css" href="css/commerce.css" />
+    <link rel="stylesheet" type="text/css" href="css/grid_groupe.css" />
+    <title>E-commerce</title>
+</head>
+<body>
+    <div class="groupe">
+        <nav class="bande">
+            <a href="accueil.html"><img src="images/logo.png" class="logo" /></a>
+            <a href="compte/compte.html"><img src="images/connect.png" class="connect" /></a>
+            <img src="images/panier.png" class="panier" />
+        </nav>
+        <div class="titre" id="titre">
+            L'inform
+        </div>
+
+        <div id="scroll_to_top">
+            <a href="#top"><img src="images/top.png" alt="Retourner en haut" /></a>
+        </div>
+        <div class="menu">
+            <ul id="menu-demo2">
+                <li>
+                    <a href="#">Ordinateur</a>
+                    <ul>
+                        <li><a href="ordinateur_fixe.html">Ordinateur fixe</a></li>
+                        <li><a href="ordinateur_portable.html">Ordinateur portable</a></li>
+                        <li><a href="portable_mac.html">Ordinateur portable mac</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Telephonie</a>
+                    <ul>
+                        <li><a href="smartphone.html">Smartphone</a></li>
+                        <li><a href="coque_smartphone.html">Coque de smartphone</a></li>
+                        <li><a href="casque_audio.html">casque audio</a></li>
+                        <li><a href="power_bank.html">Power bank</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Jeux</a>
+                    <ul>
+                        <li><a href="pc.html">PC</a></li>
+                        <li><a href="ps4.html">Ps4</a></li>
+                        <li><a href="xbox_one.html">Xbox one</a></li>
+                        <li><a href="switch.html">Switch</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="recherche">
+            <div class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-0" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </div>
+        </div>
+        <div class="filtre">
+            <p>
+                <label for="marque">Marque:</label>
+                <select for="marque">
+                    <br />
+
+                    <option>Asus</option>
+                    <option>Dell</option>
+                    <option>Lenovo</option>
+                </select>
+            </p>
+            <hr />
+            <p>
+                <label for="format">Format:</label>
+                <select for="format">
+                    <br />
+
+                    <option>Mini PC</option>
+                    <option>PC Tour Bureautique</option>
+                    <option>PC Tour Gamer</option>
+                    <option>PC Tout en un</option>
+                </select>
+            </p>
+            <hr />
+            <p>
+                <label for="processeur">Processeur:</label>
+                <select for="processeur">
+                    <br />
+
+                    <option>AMD Ryzen 3</option>
+                    <option>AMD Ryzen 5</option>
+                    <option>AMR Ryzen 7</option>
+                    <option>Intel Celeron</option>
+                    <option>Intel Core i3</option>
+                    <option>Intel Core i5</option>
+                    <option>Intel Core i7</option>
+                    <option>Intel Core i9</option>
+                    <option>Intel Pentium</option>
+                    <option>Intel silver</option>
+                    <option>Intel Xeon</option>
+                </select>
+            </p>
+            <hr />
+            <p>
+                <label for="graphique">Carte Graphique:</label>
+                <select for="graphique">
+                    <br />
+
+                    <option>AMD raseon 540</option>
+                    <option>AMD radeon pro</option>
+                    <option>AMD raseon pro vega</option>
+                    <option>AMD radeon RX 56</option>
+                    <option>chipset AMD</option>
+                    <option>chipset intel</option>
+                    <option>Nvida GeForce GTX 1050</option>
+                    <option>Nvida GeForce GTX 1050 Ti</option>
+                    <option>Nvida GeForce GTX 1060</option>
+                    <option>Nvida GeForce GTX 1070</option>
+                    <option>Nvida GeForce GTX 1070 Ti</option>
+                    <option>Nvida GeForce GTX 1080</option>
+                    <option>Nvida GeForce GTX 1080 Ti</option>
+                    <option>Nvida GeForce GTX 1650</option>
+                    <option>Nvida GeForce GTX 1660</option>
+                    <option>Nvida GeForce GTX 1660 Ti</option>
+                    <option>Nvidia geForce MX 130</option>
+                    <option>Nvidia GeForce RTX 2060</option>
+                    <option>Nvidia GeForce RTX 2070</option>
+                    <option>Nvidia GeForce RTX 2080</option>
+                    <option>Nvidia GeForce RTX 2080 Ti</option>
+                </select>
+            </p>
+            <hr />
+            <p>
+                <h4>Mémoire</h4>
+                <label>Minimum</label>
+                <input type="range" name="prix" min="309.90" max="5199.9" step="1" /><br />
+                <label>Maximum</label>
+                <input type="range" name="prix" min="309.90" max="5199.9" step="1" />
+            </p>
+            <hr />
+            <p>
+                <h4>Capasité de stockage</h4>
+                <label>Minimum</label>
+                <input type="range" name="prix" min="309.90" max="5199.9" step="1" /><br />
+                <label>Maximum</label>
+                <input type="range" name="prix" min="309.90" max="5199.9" step="1" />
+            </p>
+            <hr />
+            <p>
+                <label for="type">Type de stockage:</label>
+                <select for="type">
+                    <br />
+
+                    <option>Disque dur</option>
+                    <option>Disque dur + SSD</option>
+                    <option>SSD</option>
+                </select>
+            </p>
+            <hr />
+            <p>
+                <label for="os">Système d'exploitation</label>
+                <select>
+                    <br />
+
+                    <option>Mac OS</option>
+                    <option>Sans OS</option>
+                    <option>Windows 10</option>
+                </select>
+            </p>
+            <hr />
+            <p>
+                <h4>Prix</h4>
+                <label>Minimum</label>
+                <input type="range" name="prix" min="309.90" max="5199.9" step="1" /><br />
+                <label>Maximum</label>
+                <input type="range" name="prix" min="309.90" max="5199.9" step="1" />
+            </p>
+
+            <p>
+                <input type="button" value="Appliquer les filtre" />
+            </p>
+        </div>
+        <div class="meilleur">
+            <div id="meilleur">
+                Meilleur vente PC Fixe
+            </div>
+            <table>
+                <tr>
+                    <td width="200px"><a href="BARYUM_RTX.html">PC Gamer BARYUM RTX (avec OS)</a></td>
+                    <td width="200px"><a href="Pavilion_GTX.html">Pack HP Pavilion GTX</a></td>
+                    <td width="200px"><a href="595-p0041nf.html">HP Pavilion 595-p0041nf (6VU45EA)</a></td>
+                    <td width="200px"><a href="BATTLE_ROYALE.html">PC Gamer BATTLE ROYALE 2 (avec OS)</a></td>
+                    <td width="200px"><a href="875-0190nf.html">HP Omen 875-0190nf (6WH21EA)</a></td>
+                </tr>
+                <tr>
+                    <td><a href="BARYUM_RTX.html"><img src="fixe/ordi/PC_GAMER/1.jpg" width="45%" /></a></td>
+                    <td><a href="Pavilion_GTX.html"><img src="fixe/ordi/PC_GAMER/2.jpg" width="65%" /></a></td>
+                    <td><a href="595-p0041nf.html"><img src="fixe/ordi/HP/3.jpg" width="75%" /></a></td>
+                    <td><a href="BATTLE_ROYALE.html"><img src="fixe/ordi/PC_GAMER/4.jpg" width="75%" /></a></td>
+                    <td><a href="875-0190nf.html"><img src="fixe/ordi/HP/5.jpg" width="75%" /></a></td>
+                </tr>
+
+                <tr>
+                    <td>1050€</td>
+                    <td>1000€</td>
+                    <td>700€</td>
+                    <td>1500€</td>
+                    <td>1300€</td>
+                </tr>
+
+            </table>
+        </div>
+
+        <hr />
+        <div class="tri">
+            <label>Trié par</label>
+            <select>
+                <option>Nouveauté</option>
+                <option>Disponibilité</option>
+                <option>Popularité</option>
+                <option>Odre alphabétique</option>
+                <option>Odre alphabétique inverse</option>
+                <option>Du - cher au + cher</option>
+                <option>Du + cher au - cher</option>
+                <option>En pourcentage de remise</option>
+            </select>
+            <label>Produit par page</label>
+            <select>
+                <option>50</option>
+                <option>100</option>
+                <option>200</option>
+            </select>
+        </div>
+
+        <br />
+        <div class="contenu">
+            <nav>
+                <a href="24-xa0077nf.html">
+
+                    <div id="photo">
+                        <img src="fixe\ordi/HP/6.jpg" />
+                    </div>
+                    <div id="description">
+                        <h2>HP AIO Pavilion 24-xa0077nf (6WJ75EA)</h2>
+                        <p> PC All-in-One 23.8'' Full HD (1920 x 1080) - Intel Core i3-8100T Quad Core 3.1 GHz<br /> 8 Go DDR4 - SSD 128 Go - HDD 1 To - Windows 10 - Clavier et Souris Inclus</p>
+                    </div>
+                    <div id="prix">
+                        <h3>750.00€</h3>
+                    </div>
+
+
+
+                </a>
+            </nav>
+            <hr />
+            <nav>
+                <a href="24-xa1001nf.html">
+
+                    <div id="photo">
+                        <img src="fixe\ordi/HP/7.jpg" />
+                    </div>
+                    <div id="description">
+                        <h2>HP AIO Pavilion 24-xa1001nf (6PA70EA)</h2>
+                        <p> PC All-in-One 23.8'' Full HD (1920 x 1080) - AMD Ryzen 5 3550H - Quad Core 2.3 GHz<br /> 16 Go DDR4 - SSD 128 Go - HDD 1 To - Windows 10 - Clavier et Souris Inclus</p>
+                    </div>
+                    <div id="prix">
+                        <h3>750.00€</h3>
+                    </div>
+
+
+
+                </a>
+            </nav>
+            <hr />
+            <nav>
+                <a href="20-c435nf.html">
+
+                    <div id="photo">
+                        <img src="fixe\ordi/HP/8.jpg" />
+                    </div>
+                    <div id="description">
+                        <h2>HP AIO 20-c435nf (6AX05EA)</h2>
+                        <p> PC All-in-One 19.5'' Full HD (1920 x 1080) - Intel Celeron J4005 - Dual Core 2 GHz<br />4 Go DDR4 - HDD 1 To - Windows 10 - Clavier et Souris Inclus </p>
+                    </div>
+                    <div id="prix">
+                        <h3>400.00€</h3>
+                    </div>
+
+
+
+                </a>
+            </nav>
+            <hr />
+            <nav>
+                <a href="27-b207nf.html">
+
+                    <div id="photo">
+                        <img src="fixe\ordi/HP/9.jpg" />
+                    </div>
+                    <div id="description">
+                        <h2>HP AIO Envy 27-b207nf (6VL25EA)</h2>
+                        <p> PC All-in-One 27'' WQHD (2560 x 1440) - Intel Core i7-8700T Hexa Core 2.4 GHz <br />GeForce GTX 1050 - 16 Go DDR4 - SSD 256 Go - HDD 1 To - Windows 10 - Clavier et Souris Inclus </p>
+                    </div>
+                    <div id="prix">
+                        <h3>1799.90€</h3>
+                    </div>
+
+
+
+                </a>
+            </nav>
+
+            <hr />
+            <nav>
+                <a href="290-p0043nf.html">
+
+                    <div id="photo">
+                        <img src="fixe\ordi/HP/10.jpg" />
+                    </div>
+                    <div id="description">
+                        <h2>HP Slimline 290-p0043nf (6VU02EA)</h2>
+                        <p> PC de bureau - Intel Core i3-8100 Quad -Core 3.6 GHz<br />8 Go DDR4 - SSD 256 Go - Windows 10 </p>
+                    </div>
+                    <div id="prix">
+                        <h3>500.00€</h3>
+                    </div>
+
+                </a>
+            </nav>
+            <hr />
+            <nav>
+                <a href="24-f0106nf.html">
+                    <div id="suite">
+
+                        <img src="fixe\ordi/HP/11.jpg" />
+                    </div>
+                    <div id="description">
+                        <h2>HP AIO 24-f0106nf (6VT47EA)</h2>
+                        <p> PC All-in-One 23.8'' Full HD (1920 x 1080) - Intel Core i5-8250U - Dual Core 1.6 GHz<br />8 Go DDR4 - HDD 1 To - Windows 10 - Clavier et Souris Inclus </p>
+                    </div>
+                    <div id="prix">
+                        <h3>700.00€</h3>
+                    </div>
+
+
+
+
+                </a>
+            </nav>
+            <hr />
+        </div>
+
+        <div class="footer">
+            <a href="paiement.html">paiement sécurisé</a><br />
+            <a href="livraison.html">Livraison</a><br />
+            <a href="retractation.html">Formulaire de retractation</a>
+        </div>
+    </div>
+
+</body>
+
+</html>

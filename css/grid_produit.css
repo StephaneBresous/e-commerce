@@ -1,0 +1,80 @@
+﻿.produit {
+    display: grid;
+    grid-template-columns: 30% 5% 30% 5% 30%;
+    grid-template-rows: auto auto auto auto auto auto auto auto;  
+}
+.bande {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: cornflowerblue;
+}
+.titre {
+    grid-column-start: 3;
+    grid-column-end:4;
+    grid-row-start: 2;
+    grid-row-end:3;
+}
+.menu {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    padding-left: 5%;
+}
+.recherche{
+    grid-column-start:5;
+    grid-column-end:6;
+    grid-row-start:3;
+    grid-row-end:4;
+}
+.photo{
+    grid-column-start:1;
+    grid-column-end:2;
+    grid-row-start:4;
+    grid-row-end:5;
+    padding-left:5%;
+    align-self:center;
+    justify-self:center;
+}
+.desc{
+    grid-column-start:3;
+    grid-column-end:4;
+    grid-row-start:4;
+    grid-row-end:5;
+}
+.somme{
+    grid-column-start:5;
+    grid-column-end:6;
+    grid-row-start:4;
+    grid-row-end:5;
+}
+.onglet {
+    grid-column: 1;
+    grid-column-end: 6;
+    grid-row: 5;
+    grid-row-end: 6;
+    padding-left: 5%;
+}
+.descriptif {
+    grid-column: 1;
+    grid-column-end: 5;
+    grid-row: 6;
+    grid-row-end: 7;
+    padding-left: 5%;
+}
+.fiche{
+    grid-column-start:3;
+    grid-column-end:4;
+    grid-row-start:7;
+    grid-row-end:8;
+}
+.footer {
+    grid-column-start: 1;
+    grid-column-end:6;
+    grid-row:8;
+    grid-row-end:9;
+    background-color:crimson;
+    text-align:center;
+}

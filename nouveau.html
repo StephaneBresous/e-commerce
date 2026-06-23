@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+
+<html lang="fr" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="css/compte.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <title>e-commerce</title>
+</head>
+<body>
+    <nav id="bande">
+        <a href="accueil.html"><img src="images/logo.png" class="logo" /></a>
+        <a href="compte.html"><img src="images/connect.png" class="connect" /></a>
+        <img src="images/panier.png" class="panier" />
+    </nav>
+    <div>
+        <form class="inscipt" action="inscription">
+            <fieldset class="nouveau">
+                <h3>Création de compte</h3>
+                <h1>Vos identifiants:</h1>
+
+                <input type="text" placeholder="Votre login" autofocus class="login" /><br />
+                <br />
+                <input type="password" placeholder="Votre mot de passe" class="password" /><br />
+                <br />
+                <input type="password" placeholder="Confirmation du mote de passe" class="password" />
+                <hr />
+                <h1>VOS INFORMATION PERSONNELLES:</h1>
+                <input type="radio" name="civilite" value="monsieur" checked>M.
+                <input type="radio" name="civilite" value="madame">Mme<br />
+                <br />
+                <input type="text" name="prenom" placeholder="Prenom" class="prenom" />
+                <input type="text" name="nom" placeholder="Nom de famille" class="nom" /><br />
+                <br />
+                <select>
+                    <option>France</option>
+                    <option>Espagne</option>
+                    <option>Suisse</option>
+                    <option>Belgique</option>
+                    <option>Allemagne</option>
+                    <option>Suede</option>
+                </select><br />
+                <br />
+                <input type="date" placeholder="Date de naissance (facultatif)" class="naissance" />
+                <input type="email" placeholder="Votre e-mail" class="mail" /><br />
+                <br />
+                <input type="text" placeholder="Votre adresse" class="adresse" />
+
+                <input type="tel" placeholder="Votre numéro de téléphone" /><br />
+                <br />
+
+                <a href="accueil.html"><button type="button" class="btn btn-info">Inscription</button></a>
+
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html> 

@@ -1,0 +1,244 @@
+﻿<!DOCTYPE html>
+
+<html lang="fr" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/commerce.css" />
+    <link rel="stylesheet" type="text/css" href="css/test.css" />
+    <link rel="stylesheet" type="text/css" href="css/grid_groupe.css" />
+    <title>E-commerce</title>
+</head>
+<body>
+    <div class="groupe">
+        <div class="bande">
+            <a href="accueil.html"><img src="images/logo.png" class="logo" /></a>
+            <a href="compte/compte.html"><img src="images/connect.png" class="connect" /></a>
+            <img src="images/panier.png" class="panier" />
+        </div>
+        <div class="titre" id="titre">
+            L'inform
+        </div>
+
+        <div id="scroll_to_top">
+            <a href="#top"><img src="images/top.png" alt="Retourner en haut" /></a>
+        </div>
+        <div class="menu">
+            <ul id="menu-demo2">
+                <li>
+                    <a href="#">Ordinateur</a>
+                    <ul>
+                        <li><a href="ordinateur_fixe.html">Ordinateur fixe</a></li>
+                        <li><a href="ordinateur_portable.html">Ordinateur portable</a></li>
+                        <li><a href="portable_mac.html">Ordinateur portable mac</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Telephonie</a>
+                    <ul>
+                        <li><a href="smartphone.html">Smartphone</a></li>
+                        <li><a href="coque_smartphone.html">Coque de smartphone</a></li>
+                        <li><a href="casque_audio.html">casque audio</a></li>
+                        <li><a href="power_bank.html">Power bank</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Jeux</a>
+                    <ul>
+                        <li><a href="pc.html">PC</a></li>
+                        <li><a href="ps4.html">Ps4</a></li>
+                        <li><a href="xbox_one.html">Xbox one</a></li>
+                        <li><a href="switch.html">Switch</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="recherche">
+            <div class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-0" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </div>
+        </div>
+        <div class="filtre">
+            <p>
+                <label for="marque">Marque:</label>
+                <select for="marque">
+                    <br />
+
+                    <option>ACTIVISION</option>
+                    <option>BLIZZARS</option>
+                    <option>ELECTRONIC ART</option>
+                    <option>FOCUS HOME INTERACTIVE</option>
+                    <option>KOCH MEDIA</option>
+                </select>
+            </p>
+            <hr />
+            <p>
+                <label for="genre">Classement par genre:</label>
+                <select for="genre">
+                    <br />
+
+                    <option>Action/aventure</option>
+                    <option>jeu de rôle</option>
+                    <option>simulation</option>
+                    <option>Sport</option>
+                    <option>Stratégie/gestion</option>
+                </select>
+            </p>
+            <hr />
+            <p>
+                <h4>Prix</h4>
+                <label>Minimum</label>
+                <input type="range" name="prix" min="309.90" max="5199.9" step="1" /><br />
+                <label>Maximum</label>
+                <input type="range" name="prix" min="309.90" max="5199.9" step="1" />
+            </p>
+
+            <p>
+                <input type="button" value="Appliquer les filtre" />
+            </p>
+        </div>
+        <div class="meilleur">
+            <div id="meilleur">
+                Meilleur vente de jeux PC
+            </div>
+            <table width="100%">
+
+                <tr>
+                    <td width="200px"> <a href="Sacred_pc.html">Sacred 3 - First Edition</a></td>
+                    <td width="200px"> <a href="Blood_pc.html">Blood Bowl 2</a></td>
+                    <td width="200px"> <a href="wow_pc.html">World of Warcraft : Battle for Azeroth <br /> Edition Standard</a></td>
+                    <td width="200px"> <a href="Sims_4_pc.html">Les Sims 4 - Vie Citadine - Pack Extension - PC</a></td>
+                    <td width="200px"> <a href="Diablo_pc.html">Diablo III : Battle Chest</a></td>
+                </tr>
+                <tr>
+                    <td><a href="Sacred_pc.html"><img src="pc/jeu_pc/Sacred/1.jpg" width="65%" /></a></td>
+                    <td><a href="Blood_pc.html"><img src="pc/jeu_pc/Blood/2.jpg" width="65%" /></a></td>
+                    <td><a href="wow_pc.html"><img src="pc/jeu_pc/WOW/3.jpg" width="65%" /></a></td>
+                    <td><a href="Sims_4_pc.html"><img src="pc/jeu_pc/Sims/6.jpg" width="65%" /></a></td>
+                    <td><a href="Diablo_pc.html"><img src="pc/jeu_pc/Diablo/5.jpg" width="65%" /></a></td>
+                </tr>
+
+                <tr>
+                    <td>65€</td>
+                    <td>40€</td>
+                    <td>35€</td>
+                    <td>5€</td>
+                    <td>30€</td>
+                </tr>
+            </table>
+        </div>
+
+        <hr />
+        <div class="tri">
+            <label>Trié par</label>
+            <select>
+                <option>Nouveauté</option>
+                <option>Disponibilité</option>
+                <option>Popularité</option>
+                <option>Odre alphabétique</option>
+                <option>Odre alphabétique inverse</option>
+                <option>Du - cher au + cher</option>
+                <option>Du + cher au - cher</option>
+                <option>En pourcentage de remise</option>
+            </select>
+            <label>Produit par page</label>
+            <select>
+                <option>50</option>
+                <option>100</option>
+                <option>200</option>
+            </select>
+        </div>
+
+        <br />
+        <div class="contenu">
+            <nav>
+                <a href="Sims_4_pc.html">
+
+                    <div id="photo">
+                        <img src="pc\jeu_pc/Sims/6.jpg" />
+                    </div>
+                    <div id="description">
+                        <h2>Sims 4 </h2>
+
+                    </div>
+                    <div id="prix">
+                        <h3>40.00€</h3>
+                    </div>
+                </a>
+            </nav>
+            <hr />
+            <nav>
+                <a href="Au_travail_pc.html">
+
+                    <div id="photo">
+                        <img src="pc\jeu_pc/Sims/7.jpg" />
+                    </div>
+                    <div id="description">
+                        <h2>Les Sims 4 : Au travail</h2>
+
+                    </div>
+                    <div id="prix">
+                        <h3>35.00€</h3>
+                    </div>
+                </a>
+            </nav>
+            <hr />
+            <nav>
+                <a href="Overwatch_pc.html">
+
+                    <div id="photo">
+                        <img src="pc\jeu_pc/Overwatch/8.jpg" />
+                    </div>
+                    <div id="description">
+                        <h2>Overwatch - Legendary Edition</h2>
+
+                    </div>
+                    <div id="prix">
+                        <h3>50.00€</h3>
+                    </div>
+                </a>
+            </nav>
+            <hr />
+            <nav>
+                <a href="Vie_Citadine_pc.html">
+                    <div id="suite">
+                        <div id="photo">
+                            <img src="pc\jeu_pc/Sims/9.jpg" />
+                        </div>
+                        <div id="description">
+                            <h2>Les Sims 4 - Vie Citadine - Pack Extension </h2>
+                        </div>
+                        <div id="prix">
+                            <h3>35.00€</h3>
+                        </div>
+                    </div>
+                </a>
+            </nav>
+            <hr />
+            <nav>
+                <a href="Diablo_pc.html">
+
+                    <div id="photo">
+                        <img src="pc\jeu_pc/Diablo/5.jpg" />
+                    </div>
+                    <div id="description">
+                        <h2>Diablo III : Battle Chest </h2>
+                    </div>
+                    <div id="prix">
+                        <h3>25.00€</h3>
+                    </div>
+                </a>
+            </nav>
+
+        </div>
+
+        <div class="footer">
+            <a href="paiement.html">paiement sécurisé</a><br />
+            <a href="livraison.html">Livraison</a><br />
+            <a href="retractation.html">Formulaire de retractation</a>
+        </div>
+    </div>
+</body>
+
+</html>

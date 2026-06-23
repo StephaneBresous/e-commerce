@@ -1,0 +1,138 @@
+﻿.fieldset{
+    width: 400px;
+    background-color: silver;
+    color: blue;
+    margin-right:5px;
+}
+.nom{
+    margin-left:45px;
+}
+.connection{
+    margin-left:165px;
+    background-color:aqua;
+}
+.créer{
+    margin-left:165px;
+    background-color:aqua;
+}
+.nouveau{
+    
+    margin:auto;
+    border-radius:20px 20px 22px;
+    text-align:center;
+}
+.ancien{
+    background:silver;
+    border-radius:20px 20px 22px;
+    color: blue;
+    padding:1%;
+}
+.nouveau1 {
+    background: silver;
+    border-radius: 20px 20px 22px;
+    color: blue;
+    padding:1%;
+    width:400px;
+}
+
+input:required{
+    background:blue;
+}
+
+
+.iscript{
+    margin-left:25%;
+    margin-top:50px;
+}
+.créa{
+    margin-top:-100px;
+    margin-left:850px;
+}
+.connect{
+    margin-top:250px;
+    margin-left:250px;
+}
+#nom{
+    padding-left:135px;
+}
+#prenom{
+    padding-left:117px;
+}
+#postal{
+    padding-left:73px;
+}
+#voie{
+    margin-left:85px;
+}
+#mail{
+    padding-left:80px;
+}
+#password{
+    padding-left:80px;
+}
+#confirm{
+    margin-left:95px;
+}
+#tel{
+    padding-left:25px;
+}
+#age{
+    padding-left:15px;
+}
+#adresse{
+    margin-left:100px;
+}
+#bouton{
+    margin-left:200px;
+}
+#pays{
+    margin-left:133px;
+}
+#complete{
+    margin-left:55px;
+}
+legend{
+    font-weight:bold;
+}
+#civilite{
+    margin-left:55px;
+}
+#compte{
+    margin:auto;
+    padding-top:10%;
+    padding-left:30%;
+}
+.logo {
+    position:absolute;
+    width: 5%;
+    
+    border-radius: 40px 40px 40px;
+    box-shadow: 5px 5px 7px blueviolet;
+    margin-left: 2%;
+    margin-top:1%
+}
+.connect {
+    position: absolute;
+    
+    right: 5%;
+    border-radius: 40px 40px 40px;
+    width: 5%;
+    margin-top:1%;
+}
+
+.panier {
+    position: absolute;
+    width: 5%;
+    
+    right: 12%;
+    border-radius: 40px 40px 40px;
+    margin-top:1%;
+}
+#bande{
+    background-color:brown;
+    height:100px;
+    
+}
+h3{
+    color:crimson;
+}

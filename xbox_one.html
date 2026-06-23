@@ -1,0 +1,315 @@
+﻿<!DOCTYPE html>
+
+<html lang="fr" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/commerce.css" />
+    <link rel="stylesheet" type="text/css" href="css/test.css" />
+    <link rel="stylesheet" type="text/css" href="css/grid_groupe.css" />
+
+    <title>E-commerce</title>
+</head>
+<body>
+    <div class="groupe">
+        <div class="bande">
+            <a href="accueil.html"><img src="images/logo.png" class="logo" /></a>
+            <a href="compte/compte.html"><img src="images/connect.png" class="connect" /></a>
+            <img src="images/panier.png" class="panier" />
+        </div>
+        <div id="titre" class="titre">
+            L'inform
+        </div>
+        <div id="scroll_to_top">
+            <a href="#top"><img src="images/top.png" alt="Retourner en haut" /></a>
+        </div>
+        <div class="menu">
+            <ul id="menu-demo2">
+                <li>
+                    <a href="#">Ordinateur</a>
+                    <ul>
+                        <li><a href="ordinateur_fixe.html">Ordinateur fixe</a></li>
+                        <li><a href="ordinateur_portable.html">Ordinateur portable</a></li>
+                        <li><a href="portable_mac.html">Ordinateur portable mac</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Telephonie</a>
+                    <ul>
+                        <li><a href="smartphone.html">Smartphone</a></li>
+                        <li><a href="coque_smartphone.html">Coque de smartphone</a></li>
+                        <li><a href="casque_audio.html">casque audio</a></li>
+                        <li><a href="power_bank.html">Power bank</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Jeux</a>
+                    <ul>
+                        <li><a href="pc.html">PC</a></li>
+                        <li><a href="ps4.html">Ps4</a></li>
+                        <li><a href="xbox_one.html">Xbox one</a></li>
+                        <li><a href="switch.html">Switch</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="recherche">
+            <div class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-0" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </div>
+        </div>
+        <div class="filtre">
+
+            <p>
+
+                <label>Marque:</label>
+                <select>
+                    <br />
+
+                    <option>ACTIVISION</option>
+                    <option>BETHESDA SOFTWORDS</option>
+                    <option>BIGBEN</option>
+                    <option>BLIZZARD</option>
+                    <option>ELECTRONIC ARTS</option>
+                    <option>KONAMI</option>
+                    <option>ROCKSTAR GAMES</option>
+                    <option>SQUARE ENIX</option>
+                    <option>TAKE 2</option>
+                    <option>UBI SOFT</option>
+                    <option>WARNER BROS</option>
+                </select>
+
+
+
+                <hr />
+            </p>
+
+            <p>
+                <label for="genre">Classement par genre:</label>
+                <select>
+                    <br />
+
+                    <option>Action/Aventure</option>
+                    <option>Course</option>
+                    <option>FPS</option>
+                    <option>Jeu de role</option>
+                    <option>Musique</option>
+                    <option>Sport</option>
+                </select>
+            </p>
+
+            <hr />
+            <p>
+                <h4>Prix</h4>
+                <label>Minimum</label>
+                <input type="range" name="prix" min="309.90" max="5199.9" step="1" /><br />
+                <label>Maximum</label>
+                <input type="range" name="prix" min="309.90" max="5199.9" step="1" />
+
+            </p>
+
+            <p>
+                <input type="button" value="Appliquer les filtre" />
+            </p>
+
+        </div>
+        <div class="meilleur">
+            <div id="meilleur">
+                Meilleur vente de jeux de xbox one
+            </div>
+            <table>
+
+                <tr>
+                    <td > <a href="Plants_xbox.html">Plants VS Zombies - Garden Warfare</a></td>
+                    <td > <a href="V-Rally_xbox.html">PV-Rally 4 - Xbox One</a> </td>
+                    <td > <a href="BO4_xbox.html">Call of Duty : Black Ops 4 - Edition Pro</a></td>
+                    <td > <a href="Dance-xbox.html">Just Dance 2018</a></td>
+                    <td > <a href="Redemption_xbox.html">Red Dead Redemption 2</a> </td>
+                </tr>
+                <tr>
+                    <td><a href="Plants_xbox.html"><img src="xbox/xbox_one/Plants/1.jpg"  /></a></td>
+                    <td><a href="V-Rally_xbox.html"><img src="xbox/xbox_one/vrally/2.jpg"  /></a></td>
+                    <td><a href="BO4_xbox.html"><img src="xbox/xbox_one/BO4/3.jpg" /></a></td>
+                    <td><a href="Dance-xbox.html"><img src="xbox/xbox_one/Dance/4.jpg"  /></a></td>
+                    <td><a href="Redemption_xbox.html"><img src="xbox/xbox_one/Redemption/5.jpg" /></a></td>
+                </tr>
+
+                <tr>
+                    <td>35€</td>
+                    <td>10€</td>
+                    <td>120€</td>
+                    <td>50€</td>
+                    <td>50€</td>
+                </tr>
+            </table>
+        </div>
+        <hr />
+        <div class="tri">
+            <label>Trié par</label>
+            <select>
+                <option>Nouveauté</option>
+                <option>Disponibilité</option>
+                <option>Popularité</option>
+                <option>Odre alphabétique</option>
+                <option>Odre alphabétique inverse</option>
+                <option>Du - cher au + cher</option>
+                <option>Du + cher au - cher</option>
+                <option>En pourcentage de remise</option>
+            </select>
+            <label>Produit par page</label>
+            <select>
+                <option>50</option>
+                <option>100</option>
+                <option>200</option>
+            </select>
+        </div>
+        <br />
+        <div class="contenu">
+            
+ <a href="Crew_xbox.html">
+    <table>
+        <tr>
+            <td>
+                <div id="photo">
+                    <img src="xbox\xbox_one/Crew/6.jpg" />
+                </div>
+            </td>
+            <td>
+                <div id="description">
+                    <h2>The Crew 2</h2>
+                    <p>Optimisé pour Xbox One X </p>
+                </div>
+            </td>
+            <td>
+                <div id="prix">
+                    <h3>60.00€</h3>
+                </div>
+            </td>
+        </tr>
+    </table>
+
+</a>
+            <hr />
+                <a href="Far_cry_xbox.html">
+                   <table>
+                       <tr>
+                           <td>
+                               <div id="photo">
+                                   <img src="xbox\xbox_one/Farcry/7.jpg" />
+                               </div>
+                           </td>
+                           <td>
+                               <div id="description">
+                                   <h2>Far Cry 5 - DLC Offert !</h2>
+                                   <p>Optimisé pour Xbox One X Pack Survivant de l'Apocalypse + Pack Chaos </p>
+                               </div>
+                           </td>
+                           <td>
+                               <div id="prix">
+                                   <h3>65.00€</h3>
+                               </div>
+                           </td>
+                       </tr>
+                   </table>
+                </a>
+            <hr />
+                <a href="console_xbox.html">
+                    <table>
+                        <tr>
+                            <td>
+                                <div id="photo">
+                                    <img src="xbox\xbox_one/Console/8.jpg" />
+                                </div>
+                            </td>
+                            <td>
+                                <div id="description">
+                                    <h2>Microsoft Xbox One S 1 To + Battlefield V Edition Deluxe</h2>
+                                </div>
+                            </td>
+                            <td>
+                                <div id="prix">
+                                    <h3>284.90€</h3>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </a>
+            <hr />
+                <a href="Diablo_xbox.html">
+                    <table>
+                        <tr>
+                            <td>
+                                <div id="photo">
+                                    <img src="xbox\xbox_one/Diablo/9.jpg" />
+                                </div>
+                            </td>
+                            <td>
+                                <div id="description">
+                                    <h2>Diablo 3 Eternal Collection</h2>
+                                </div>
+                            </td>
+                            <td>
+                                <div id="prix">
+                                    <h3>32.90€</h3>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </a>
+            <hr />
+                <a href="South_park_xbox.html">
+                    <table>
+                        <tr>
+                            <td>
+                                <div id="photo">
+                                    <img src="xbox\xbox_one/South/10.jpg" />
+                                </div>
+                            </td>
+                            <td>
+                                <div id="description">
+                                    <h2>South Park - L'Annale du Destin</h2>
+                                </div>
+                            </td>
+                            <td>
+                                <div id="prix">
+                                    <h3>60.00€</h3>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </a>
+            <hr />
+                <a href="Odyssey_xbox.html">
+                    <table>
+                        <tr>
+                            <td>
+                                <div id="photo">
+                                    <img src="xbox\xbox_one/Odyssey/11.jpg" />
+                                </div>
+                            </td>
+                            <td>
+                                <div id="descriptionp">
+                                    <h2>Assassin's Creed Odyssey</h2>
+
+                                </div>
+                            </td>
+                            <td>
+                                <div id="prix">
+                                    <h3>60.00€</h3>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </a>   
+        </div>
+        <div class="footer">
+            <a href="paiement.html">paiement sécurisé</a><br />
+            <a href="livraison.html">Livraison</a><br />
+            <a href="retractation.html">Formulaire de retractation</a>
+        </div>
+    </div>   
+   
+</body>
+
+</html>

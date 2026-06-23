@@ -1,0 +1,108 @@
+﻿body {
+    margin: auto;
+    background: linear-gradient(63deg, #e7e0dd 23%, transparent 23%) 7px 0, linear-gradient(63deg, transparent 74%, #e7e0dd 78%), linear-gradient(63deg, transparent 34%, #e7e0dd 38%, #e7e0dd 58%, transparent 62%), #f1eae7;
+    background-size: 16px 48px;
+}
+.logo {
+    width: 5%;
+    border-radius: 40px 40px 40px;
+    box-shadow: 5px 5px 7px blueviolet;
+    margin-left: 2%
+}
+@font-face {
+    font-family: 'quadrantaregular';
+    src: url('police/quadranta-regular-webfont.eot');
+    src: url('police/quadranta-regular-webfont.eot?#iefix') format('embedded-opentype'), url('police/quadranta-regular-webfont.woff') format('woff'), url('police/quadranta-regular-webfont.svg#quadrantaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'just_another_handregular';
+    src: url('justanotherhand-regular-webfont.woff2') format('woff2'), url('justanotherhand-regular-webfont.woff') format('woff'), url('justanotherhand-regular-webfont.svg#just_another_handregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+h3 {
+    font-family: quadrantaregular,sans-serif;
+    color: orangered;
+    font-size: 30px;
+}
+#titre {
+    border: 2px solid black;
+    border-radius: 10px 10px 12px;
+    width: 400px;
+    text-align: center;
+    margin: auto;
+    background-color: aqua;
+    font-family: just_another_handregular;
+    font-size: 35px;
+    font-style: oblique;
+    font-weight: bold;
+    text-shadow: 5px 5px 7px blueviolet;
+}
+.connect {
+    border-radius: 50px 50px 50px;
+    width: 5%;
+    margin-top:2%;
+    margin-left:75%; 
+    margin-bottom:2%;
+}
+.panier {
+    width: 5%;
+    border-radius: 40px 40px 40px;
+    margin-top: 2%;
+    margin-left:2%;
+    margin-bottom: 2%;
+}
+#filtre {
+    float: left;
+    height: 100%;
+    width: 20%;
+    background: aqua;
+}
+hr {
+    background: mediumvioletred;
+}
+#scroll_to_top {
+    position: fixed;
+    width: 25px;
+    height: 25px;
+    bottom: 50px;
+    right: 30px;
+}
+#scroll_to_top img {
+        width: 50px;
+}
+.fond{
+    margin:auto;
+    text-align:center;
+}
+.corp{
+    padding-left:2%;
+    padding-right:2%;
+}
+#photo{
+    float:left
+}
+#description{
+    padding-top:2%;
+    padding-bottom:2%
+}
+#prix {
+    float: right;
+    padding-top: 0%;
+    padding-bottom: 5%;
+}
+#meilleur{
+    background-color:ivory
+}
+.contenu img{
+    width:50%;
+}
+#vente{
+    font-size:24px;
+    font-weight:bold;
+}
+#meilleur img{
+    width:60%;
+}
