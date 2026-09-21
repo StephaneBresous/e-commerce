@@ -34,3 +34,6 @@
     background-color: crimson;
     text-align: center;
 }
+.ia {
+    grid-column: 1/2;
+    text-align: center;
